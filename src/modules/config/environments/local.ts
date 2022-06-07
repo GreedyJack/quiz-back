@@ -34,7 +34,9 @@ export default {
     password: 'pgsecret',
     database: 'pgquiz',
     synchronize: true,
-    entities: [path.join(process.env.APP_ROOT, 'entities/*entity{.ts,.js}')],
+    entities: [
+      path.join(process.env.APP_ROOT, 'dist/entities/**/*entity{.ts,.js}'),
+    ],
     retryAttempts: 3,
     retryDelay: 5000,
     verboseRetryLog: true,

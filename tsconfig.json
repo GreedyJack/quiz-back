@@ -17,7 +17,7 @@
     "paths": {
       "@entities/*": ["src/entities/*"],
       "@modules/*": ["src/modules/*"],
-      "@types/*": ["src/types/*"],
+      "@app-types/*": ["src/types/*"],
       "@/*": ["src/*"]
     },
     "noImplicitAny": true
