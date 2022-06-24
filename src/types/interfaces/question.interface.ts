@@ -1,4 +1,5 @@
-import { QuestionCategory } from 'src/types/enums/question-category.enum';
+import { QuestionCategory } from '@app/types/enums';
+
 import { IQuizElement } from './quiz-element.interface';
 import { IStatCounter } from './stat-counter.interface';
 

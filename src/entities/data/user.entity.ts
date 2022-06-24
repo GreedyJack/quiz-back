@@ -1,5 +1,6 @@
 import { Column, Entity, OneToMany } from 'typeorm';
-import { BaseEntity, Game, GameParticipants } from '@/entities';
+
+import { BaseEntity, Game, GameParticipants } from '@app/entities';
 
 @Entity()
 export class User extends BaseEntity {

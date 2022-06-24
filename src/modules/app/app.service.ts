@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { ConfigService } from '../../modules/config/config.service';
+
+import { ConfigService } from '@app/modules/config/config.service';
 
 type Hello = {
   message: string;

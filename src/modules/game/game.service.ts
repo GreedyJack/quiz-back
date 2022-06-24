@@ -1,8 +1,10 @@
-import { Game } from '@/entities';
-import { UserService } from '@modules/user/user.service';
 import { Inject, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+
 import { Repository } from 'typeorm';
+
+import { Game } from '@app/entities';
+import { UserService } from '@app/modules/user';
 
 @Injectable()
 export class GameService {

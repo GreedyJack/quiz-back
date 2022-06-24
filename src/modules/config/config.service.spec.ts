@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-
 import { Test } from '@nestjs/testing';
 
 import { ConfigModule } from './config.module';
@@ -53,7 +51,9 @@ describe('ConfigService', () => {
       try {
         await createConfigServiceTestModule('error', 'test');
       } catch (error) {
-        expect(error.message).toBe('The configuration file .env.error does not exist!');
+        expect(error.message).toBe(
+          'The configuration file .env.error does not exist!',
+        );
       }
     });
   });

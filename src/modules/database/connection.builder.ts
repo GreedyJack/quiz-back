@@ -1,5 +1,6 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { ConfigService } from '../config/config.service';
+
+import { ConfigService } from '@app/modules/config';
 
 export const buildConnection = async (
   configService?: ConfigService,

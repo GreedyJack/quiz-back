@@ -1,4 +1,4 @@
-import { User } from '@/entities';
+import { User } from '@app/entities';
 
 export interface IGame {
   id: string;

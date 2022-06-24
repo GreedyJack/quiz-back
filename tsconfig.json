@@ -15,10 +15,7 @@
     "incremental": true,
     "noUnusedLocals": true,
     "paths": {
-      "@entities/*": ["src/entities/*"],
-      "@modules/*": ["src/modules/*"],
-      "@app-types/*": ["src/types/*"],
-      "@/*": ["src/*"]
+      "@app/*": ["src/*"]
     },
     "noImplicitAny": true
   },

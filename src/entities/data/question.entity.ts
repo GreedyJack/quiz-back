@@ -1,6 +1,7 @@
-import { QuestionCategory } from '@app-types/enums/question-category.enum';
 import { BeforeInsert, Column, Entity } from 'typeorm';
-import { BaseEntity } from '@/entities';
+
+import { BaseEntity } from '@app/entities';
+import { QuestionCategory } from '@app/types/enums/question-category.enum';
 
 @Entity()
 export class Question extends BaseEntity {
