@@ -1,2 +1,5 @@
 node_modules
 dist
+postgres
+prod.env
+*/**/config/environments/prod.ts
